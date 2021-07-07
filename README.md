@@ -78,7 +78,6 @@ Note that while searching with a hashed index has time complexity of O(1), searc
 
 Due to this performance degradation, most languages, such as Python, will automatically resize the hash table when it reaches a certain capacity. This is done by creating a new hash table (usually doubling in size) and copying each element one-by-one into the new hash table.
 
-
 # Assignments
 
 
